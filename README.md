@@ -1,2 +1,6 @@
-# An-lisis-de-Redes-de-interacciones
-El código está orientado a estudiantes de licenciatura y posgrado con interés en ecología de comunidades, redes mutualistas y ecología de polinizadores
+Este repositorio contiene un script de R realizado por Esteban Omar Munguía-Soto diseñado como material didáctico para el análisis de redes de interacción ecológica utilizando el paquete bipartite (Dormann, Gruber & Fründ, 2008). El código está orientado a estudiantes de licenciatura y posgrado con interés en ecología de comunidades, redes mutualistas y ecología de polinizadores.
+El análisis emplea matrices de interacción cuantitativas (e.g., plantas–polinizadores, huéspedes–parásitos) para calcular métricas a nivel de red y de especie que describen la estructura y especialización de las interacciones. Entre las métricas abordadas se incluyen conectancia, anidamiento (NODF), modularidad, índice de especialización H₂ y métricas de nivel de especie como d' y grado de conectividad (k). El script incluye la visualización de las redes bipartitas mediante grafos y matrices de interacción.
+El material está estructurado de manera progresiva: carga y preparación de datos, construcción de la matriz de interacción, cálculo de índices ecológicos y generación de figuras publicables. Se incluyen comentarios explicativos en cada
+
+Referencias
+(Dormann, Gruber & Fründ, 2008. Introducing the bipartite Package: Analysing Ecological Networks. R News, 8(2), 8–11). 
