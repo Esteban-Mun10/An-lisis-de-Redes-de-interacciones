@@ -262,5 +262,6 @@ print(nucleo_polinizadores)
 # Valores > 0: especies del NÚCLEO (más conectadas que el promedio)
 # Valores < 0: especies de la PERIFERIA (menos conectadas que el promedio)
 ```
-# Valores > 0: especies del NÚCLEO (más conectadas que el promedio)
+
+```# Valores > 0: especies del NÚCLEO (más conectadas que el promedio)
 # Valores < 0: especies de la PERIFERIA (menos conectadas que el promedio)
