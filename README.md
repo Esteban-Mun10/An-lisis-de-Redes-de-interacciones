@@ -9,6 +9,7 @@ The material is organized progressively, encompassing the following analytical s
 Referencias
 (Dormann, Gruber & Fründ, 2008. Introducing the bipartite Package: Analysing Ecological Networks. R News, 8(2), 8–11). 
 
+```r
 
 # ============================================================================
 # ANÁLISIS DE REDES DE INTERACCIÓN BIPARTITAS
@@ -258,5 +259,8 @@ nucleo_polinizadores <- nucleolower(Tabla_1)
 print(nucleo_polinizadores)
 
 #Interpretación
+# Valores > 0: especies del NÚCLEO (más conectadas que el promedio)
+# Valores < 0: especies de la PERIFERIA (menos conectadas que el promedio)
+```
 # Valores > 0: especies del NÚCLEO (más conectadas que el promedio)
 # Valores < 0: especies de la PERIFERIA (menos conectadas que el promedio)
